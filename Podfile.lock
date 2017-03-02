@@ -1,0 +1,19 @@
+PODS:
+  - TDTChocolate (2.12.0):
+    - TDTChocolate/CoreDataAdditions (= 2.12.0)
+    - TDTChocolate/FoundationAdditions (= 2.12.0)
+    - TDTChocolate/TestingAdditions (= 2.12.0)
+  - TDTChocolate/CoreDataAdditions (2.12.0):
+    - TDTChocolate/FoundationAdditions
+  - TDTChocolate/FoundationAdditions (2.12.0)
+  - TDTChocolate/TestingAdditions (2.12.0)
+
+DEPENDENCIES:
+  - TDTChocolate (~> 2.12)
+
+SPEC CHECKSUMS:
+  TDTChocolate: cfe420907e309b3e70ef31189f036aecee8cd21e
+
+PODFILE CHECKSUM: b78411a68209c87b3539ad6961e29c1f490c46b9
+
+COCOAPODS: 1.1.1
