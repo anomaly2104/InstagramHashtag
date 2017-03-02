@@ -14,6 +14,8 @@
 		63CAD83F1E67F8BD0066F38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CAD83E1E67F8BD0066F38C /* Assets.xcassets */; };
 		63CAD8421E67F8BD0066F38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CAD8401E67F8BD0066F38C /* LaunchScreen.storyboard */; };
 		63CAD84D1E67F8BD0066F38C /* InstagramHashtagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CAD84C1E67F8BD0066F38C /* InstagramHashtagTests.m */; };
+		63CAD8591E67FD340066F38C /* UAHashTagListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CAD8581E67FD340066F38C /* UAHashTagListTableViewController.m */; };
+		63CAD85C1E67FD9A0066F38C /* UAHashTagListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CAD85B1E67FD9A0066F38C /* UAHashTagListTableViewCell.m */; };
 		FB17ED00CA7DE3F764BA012A /* libPods-InstagramHashtag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88A961B8C0E619DFC6A7A67 /* libPods-InstagramHashtag.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,10 @@
 		63CAD8481E67F8BD0066F38C /* InstagramHashtagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramHashtagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CAD84C1E67F8BD0066F38C /* InstagramHashtagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramHashtagTests.m; sourceTree = "<group>"; };
 		63CAD84E1E67F8BD0066F38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CAD8571E67FD340066F38C /* UAHashTagListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHashTagListTableViewController.h; sourceTree = "<group>"; };
+		63CAD8581E67FD340066F38C /* UAHashTagListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAHashTagListTableViewController.m; sourceTree = "<group>"; };
+		63CAD85A1E67FD9A0066F38C /* UAHashTagListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHashTagListTableViewCell.h; sourceTree = "<group>"; };
+		63CAD85B1E67FD9A0066F38C /* UAHashTagListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAHashTagListTableViewCell.m; sourceTree = "<group>"; };
 		D88A961B8C0E619DFC6A7A67 /* libPods-InstagramHashtag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstagramHashtag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD9096C9D1CD524A1D3B36C /* Pods-InstagramHashtag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramHashtag.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramHashtag/Pods-InstagramHashtag.release.xcconfig"; sourceTree = "<group>"; };
 		FCDFE5795F50A762983EBEC9 /* Pods-InstagramHashtag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramHashtag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramHashtag/Pods-InstagramHashtag.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +120,10 @@
 				63CAD8401E67F8BD0066F38C /* LaunchScreen.storyboard */,
 				63CAD8431E67F8BD0066F38C /* Info.plist */,
 				63CAD8321E67F8BD0066F38C /* Supporting Files */,
+				63CAD8571E67FD340066F38C /* UAHashTagListTableViewController.h */,
+				63CAD8581E67FD340066F38C /* UAHashTagListTableViewController.m */,
+				63CAD85A1E67FD9A0066F38C /* UAHashTagListTableViewCell.h */,
+				63CAD85B1E67FD9A0066F38C /* UAHashTagListTableViewCell.m */,
 			);
 			path = InstagramHashtag;
 			sourceTree = "<group>";
@@ -288,6 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CAD85C1E67FD9A0066F38C /* UAHashTagListTableViewCell.m in Sources */,
+				63CAD8591E67FD340066F38C /* UAHashTagListTableViewController.m in Sources */,
 				63CAD83A1E67F8BD0066F38C /* UAViewController.m in Sources */,
 				63CAD8371E67F8BD0066F38C /* UAAppDelegate.m in Sources */,
 				63CAD8341E67F8BD0066F38C /* main.m in Sources */,
@@ -489,6 +501,7 @@
 				63CAD8531E67F8BD0066F38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CAD8541E67F8BD0066F38C /* Build configuration list for PBXNativeTarget "InstagramHashtagTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +510,7 @@
 				63CAD8561E67F8BD0066F38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

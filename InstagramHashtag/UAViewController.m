@@ -7,23 +7,23 @@
 //
 
 #import "UAViewController.h"
+#import "UAHashTagListTableViewController.h"
 
 @interface UAViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *hashTagInputField;
 
 @end
 
 @implementation UAViewController
 
-- (void)viewDidLoad {
-  [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+#pragma mark Segue
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  if ([segue.identifier isEqualToString:@"UAShowHashTagListSegue"]) {
+    UAHashTagListTableViewController *destination = segue.destinationViewController;
+    [destination setHashTag:self.hashTagInputField.text];
+  }
 }
-
-
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
-}
-
 
 @end

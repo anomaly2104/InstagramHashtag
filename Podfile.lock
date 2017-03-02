@@ -1,4 +1,27 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - InstagramKit (3.8):
+    - AFNetworking (~> 3.0)
+    - InstagramKit/Exclude-UICKeyChainStore (= 3.8)
+  - InstagramKit/Exclude-UICKeyChainStore (3.8):
+    - AFNetworking (~> 3.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - TDTChocolate (2.12.0):
     - TDTChocolate/CoreDataAdditions (= 2.12.0)
     - TDTChocolate/FoundationAdditions (= 2.12.0)
@@ -9,11 +32,16 @@ PODS:
   - TDTChocolate/TestingAdditions (2.12.0)
 
 DEPENDENCIES:
+  - InstagramKit (~> 3.8)
+  - SDWebImage (~> 4.0)
   - TDTChocolate (~> 2.12)
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  InstagramKit: 402d6bba375357b548039de08eea19a1b8716354
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   TDTChocolate: cfe420907e309b3e70ef31189f036aecee8cd21e
 
-PODFILE CHECKSUM: b78411a68209c87b3539ad6961e29c1f490c46b9
+PODFILE CHECKSUM: 284754d2d38470a4ff87635968ba8732371f53bc
 
 COCOAPODS: 1.1.1
